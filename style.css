@@ -1,0 +1,58 @@
+.button {
+    border-color: chocolate;
+    color: chocolate;
+}
+
+.button:hover {
+    color: white;
+    border-color: chocolate;
+    background-color: chocolate;
+}
+
+.container-fluid {
+    margin: 0 24px;
+}
+
+
+div h2 {
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-firstBox {
+    border-bottom: 1px solid #392d23;
+}
+
+.footer-secondBox a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-third {
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .footer-firstBox {
+        text-align: center;
+    }
+
+    .footer-secondBox {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+
+    .footer-third {
+        display: block;
+    }
+}
